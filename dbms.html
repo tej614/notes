@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DBMS - 3rd Year Sem 1</title>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header>📘 DBMS - 3(1)</header>
+
+<div class="container">
+  <h2>Available Resources</h2>
+  <div id="resourcesList"></div>
+  <br>
+
+  <h2>Upload Resource</h2>
+  <form id="uploadForm">
+    <input type="text" id="lessonName" placeholder="Lesson / Topic" required><br><br>
+    <input type="file" id="fileInput" accept=".pdf" multiple><br><br>
+    <input type="text" id="videoLink" placeholder="YouTube Link"><br><br>
+    <button type="submit">Upload</button>
+  </form>
+
+  <button id="adminLoginBtn">🔑 Admin Login</button>
+</div>
+
+<script src="../../script.js"></script>
+<script>
+loadSubjectPage("dbms-3-1"); // Unique key for this subject
+</script>
+
+<a href="../sem1.html" class="back-btn">⬅ Back to Sem 1</a>
+</body>
+</html>
